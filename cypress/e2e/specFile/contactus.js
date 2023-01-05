@@ -21,7 +21,7 @@ describe('Contact Us page functionality', () => {
     context('Contact US page functionality', () => {
         const contactUsObject = new ContactUsPage()
 
-        it('Validate user landed on Contact Us page.', () => {
+        it('Contact Us page : Validate user landed on the page.', () => {
             contactUsObject.navigateToContactUsPage()
         })
         it('Positive Case : Validate Contact Us page.', () => {
